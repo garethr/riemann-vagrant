@@ -1,0 +1,115 @@
+html,table {
+  font-family: Helvetica Nueue, Helvetica, sans;
+  font-size: 8pt;
+}
+h1 {
+  margin-bottom: 0.2em;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.1em;
+}
+
+.box {
+  float: left;
+  margin: 4px;
+}
+
+.state, .bar {
+  background: #cacaca;
+}
+.state.ok, .bar.ok {
+  background: #B8F1BC;
+}
+.state.warning, .bar.warning {
+  background: #F7D18E;
+}
+.state.critical, .bar.critical {
+  background: #FF3C43;
+}
+
+.view .query {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 16px;
+  margin: 0;
+}
+
+.scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.log-table .scroll {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.log-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.log-table thead {
+  text-align: left;
+}
+
+.log-table tbody {
+}
+
+.log-table td {
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+  padding: 3px;
+  white-space: pre;
+}
+.log-table td .bar {
+  margin: -3px;
+  padding: 3px;
+}
+
+.chart {
+  width: 140px;
+  border: 1px solid #ccc;
+}
+.chart td {
+  min-width: 40px;
+  overflow: hidden;
+}
+.chart th {
+  width: 1px;
+  text-align: left;
+}
+
+.timeSeries rect {
+  fill: #CA0000;
+  stroke: white;
+}
+
+#layout {
+  position: relative;
+}
+
+.view {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  background: #ddd;
+}
+
+.focusOverlay {
+  position: absolute;
+  z-index: 1000;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.5);
+}
