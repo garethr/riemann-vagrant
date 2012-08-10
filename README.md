@@ -7,6 +7,9 @@ It does that by using two other lovely tools, namely
 You'll need to install Vagrant yourself but puppet comes included on the
 specified box.
 
+[![Build
+Status](https://secure.travis-ci.org/garethr/riemann-vagrant.png)](http://travis-ci.org/garethr/riemann-vagrant)
+
 ## Usage
 
 Once you have Vagrant installed all you have to do is:
