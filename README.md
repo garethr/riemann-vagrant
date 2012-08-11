@@ -12,6 +12,13 @@ Status](https://secure.travis-ci.org/garethr/riemann-vagrant.png)](http://travis
 
 ## Usage
 
+First you'll need to download the relevant Puppet modules, which are
+managed via [Librarian
+Puppet](https://github.com/rodjek/librarian-puppet).
+
+    bundle install
+    bundle exec librarian-puppet install
+
 Once you have Vagrant installed all you have to do is:
 
     vagrant up
@@ -26,25 +33,6 @@ data.
 You can access the dashboard at http://localhost:4567 due to that port
 being forwarded and if you're experimenting with the a Riemann client
 you can access that on localhost:5555.
-
-## Riemann Puppet Module
-
-The Riemann puppet module bundled here wants a bit of refactoring and pulling
-out into a separate repository at some point and uploading to The Forge.
-For the moment feel free to copy it from here.
-
-## Contributing
-
-The puppet module for riemann included here has both a test suite and is
-syntax checked. If you're going to contribute, or just interested in
-testing Puppet code, first install the dependencies:
-
-    bundle install
-
-The run the tests and linter:
-
-    bundle exec rake spec
-    bundle exec rake lint
 
 ## License
 
