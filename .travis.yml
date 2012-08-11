@@ -2,5 +2,4 @@ language: ruby
 rvm:
   - 1.9.2
   - 1.9.3
-after_install:
-  - bundle exec librarian-puppet install
+after_install: bundle exec librarian-puppet install
