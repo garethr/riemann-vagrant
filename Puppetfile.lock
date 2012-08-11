@@ -1,0 +1,18 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    garethr/riemann (0.0.1)
+    maestrodev/wget (0.0.1)
+
+GIT
+  remote: git://github.com/jamtur01/puppet-riemann.git
+  ref: master
+  sha: f88e877d62f495d77fc99678ecb2adf8d01a5b72
+  specs:
+    riemann-puppet (0.0.1)
+
+DEPENDENCIES
+  garethr/riemann (>= 0)
+  maestrodev/wget (>= 0)
+  riemann-puppet (>= 0)
+

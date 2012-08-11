@@ -1,5 +1,0 @@
-name 'riemann'
-version '0.0.1'
-license 'Apache 2.0'
-summary 'Install the Riemann metrics tool and dashboard'
-project_page 'https://github.com/garethr/riemann'
