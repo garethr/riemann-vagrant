@@ -10,6 +10,9 @@ specified box.
 [![Build
 Status](https://secure.travis-ci.org/garethr/riemann-vagrant.png)](http://travis-ci.org/garethr/riemann-vagrant)
 
+[![Dependency
+Status](https://gemnasium.com/garethr/riemann-vgrant.png)](http://gemnasium.com/garethr/riemann-vagrant)
+
 ## Usage
 
 First you'll need to download the relevant Puppet modules, which are
