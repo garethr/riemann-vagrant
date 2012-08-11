@@ -29,7 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   librarian-puppet
-  puppet (= 2.7.18)
+  puppet (>= 2.7)
   puppet-lint (>= 0.1.13)
   rake
   rspec-puppet
