@@ -9,7 +9,6 @@ specified box.
 
 [![Build
 Status](https://secure.travis-ci.org/garethr/riemann-vagrant.png)](http://travis-ci.org/garethr/riemann-vagrant)
-
 [![Dependency
 Status](https://gemnasium.com/garethr/riemann-vagrant.png)](http://gemnasium.com/garethr/riemann-vagrant)
 
