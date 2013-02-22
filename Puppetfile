@@ -5,3 +5,4 @@ mod 'riemann-puppet',
 
 mod 'garethr/riemann'
 mod 'maestrodev/wget'
+mod 'puppetlabs/gcc'

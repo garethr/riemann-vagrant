@@ -3,6 +3,7 @@ FORGE
   specs:
     garethr/riemann (0.0.4)
     maestrodev/wget (0.0.1)
+    puppetlabs/gcc (0.0.3)
 
 GIT
   remote: git://github.com/jamtur01/puppet-riemann.git
@@ -14,5 +15,6 @@ GIT
 DEPENDENCIES
   garethr/riemann (>= 0)
   maestrodev/wget (>= 0)
+  puppetlabs/gcc (>= 0)
   riemann-puppet (>= 0)
 
