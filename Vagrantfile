@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   config.vm.forward_port 5555, 5555
-  config.vm.forward_port 5556, 5556
+  config.vm.forward_port 5555, 5556
   config.vm.forward_port 4567, 4567
 
   config.vm.provision :puppet, :options => ["--debug", "--verbose", "--summarize", "--reports", "store,riemann"] do |puppet|
