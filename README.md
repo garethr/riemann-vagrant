@@ -21,12 +21,21 @@ Puppet](https://github.com/rodjek/librarian-puppet).
     bundle install
     bundle exec librarian-puppet install
 
-Once you have Vagrant installed all you have to do is:
+Once you have Vagrant installed choose which distro you prefer,
+currently the module (and this repo) support centos and ubuntu. Run
+either:
 
-    vagrant up
+    vagrant up ubuntu
 
-This should download an Ubuntu base box and then use Puppet to install
-Reinmann. It also installs a modified dashboard as an example, starts a
+Or:
+
+    vagrant up centos
+
+Note that you can only run one of these at the same time (at least
+without messing with the config) due to port forwarding being used.
+
+This should download an Ubuntu or Centos base box and then use Puppet to install
+Reinmann. It also installs the dashboard as an example, starts a
 couple of daemons to start putting information into Riemann and also
 uses the [Puppet report
 processor](https://github.com/jamtur01/puppet-riemann) to load even more
