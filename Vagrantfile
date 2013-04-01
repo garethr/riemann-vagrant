@@ -2,10 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "precise64"
-  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
-  config.vm.network :private_network, ip: "192.168.50.10"
   config.vm.network :forwarded_port, guest: 4567, host: 4567
   config.vm.network :forwarded_port, guest: 5555, host: 5555
   config.vm.network :forwarded_port, guest: 5556, host: 5556
@@ -15,4 +12,15 @@ Vagrant.configure("2") do |config|
     puppet.module_path    = "modules"
     puppet.manifest_file  = "site.pp"
   end
+
+  config.vm.define :ubuntu do |conf|
+    conf.vm.box = "precise64"
+    conf.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  end
+
+  config.vm.define :centos do |conf|
+    conf.vm.box = "puppet-centos-63"
+    conf.vm.box_url = "http://puppet-vagrant-boxes.puppetlabs.com/centos-63-x64.box"
+  end
+
 end
