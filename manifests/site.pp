@@ -22,7 +22,7 @@ class { 'ruby':
 }
 
 class { 'ruby::dev':
-  stage        => runtime,
+  stage => runtime,
 }
 
 include riemann
