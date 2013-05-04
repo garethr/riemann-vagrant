@@ -13,10 +13,15 @@ case $::osfamily {
       provider => redhat,
     }
   }
+  default: {}
 }
 
 class { 'ruby':
   gems_version => $gem_version,
+  stage        => runtime,
+}
+
+class { 'ruby::dev':
   stage        => runtime,
 }
 
