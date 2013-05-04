@@ -23,4 +23,9 @@ Vagrant.configure("2") do |config|
     conf.vm.box_url = "http://puppet-vagrant-boxes.puppetlabs.com/centos-63-x64.box"
   end
 
+  config.vm.define :centos58 do |conf|
+    conf.vm.box = "puppet-centos-58"
+    conf.vm.box_url = "http://puppet-vagrant-boxes.puppetlabs.com/centos-58-x64.box"
+  end
+
 end
