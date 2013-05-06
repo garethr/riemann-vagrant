@@ -1,7 +1,7 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
-    garethr/riemann (0.4.2)
+    garethr/riemann (0.5.0)
       maestrodev/wget (>= 0.0.0)
       puppetlabs/gcc (>= 0.0.0)
       puppetlabs/java (>= 0.0.0)
