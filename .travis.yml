@@ -1,0 +1,6 @@
+---
+language: ruby
+before_install: rm Gemfile.lock || true
+rvm:
+  - 1.9.3
+script: echo "Fake build"
