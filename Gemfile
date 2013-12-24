@@ -10,4 +10,4 @@ gem "rake"
 gem "puppet-lint", ">= 0.1.13"
 gem "puppet", puppetversion
 gem "rspec-puppet"
-gem "librarian-puppet"
+gem "librarian-puppet-maestrodev"

@@ -5,11 +5,15 @@ GEM
     facter (1.7.0)
     hiera (1.2.1)
       json_pure
-    json (1.7.7)
+    highline (1.6.20)
+    json (1.8.1)
     json_pure (1.7.7)
-    librarian-puppet (0.9.9)
-      json
+    librarian (0.1.1)
+      highline
       thor (~> 0.15)
+    librarian-puppet-maestrodev (0.9.11.1)
+      json
+      librarian (>= 0.1.1)
     puppet (3.1.1)
       facter (~> 1.6)
       hiera (~> 1.0)
@@ -31,7 +35,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  librarian-puppet
+  librarian-puppet-maestrodev
   puppet (>= 2.7)
   puppet-lint (>= 0.1.13)
   rake
