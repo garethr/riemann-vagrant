@@ -1,9 +1,0 @@
-language: ruby
-rvm:
-  - 1.9.2
-  - 1.9.3
-before_install: rm Gemfile.lock
-before_script: bundle exec librarian-puppet install
-env:
-  - PUPPET_VERSION=2.7.17
-  - PUPPET_VERSION=2.7.18
