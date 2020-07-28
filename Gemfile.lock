@@ -6,7 +6,7 @@ GEM
     hiera (1.2.1)
       json_pure
     highline (1.6.20)
-    json (1.8.1)
+    json (2.3.1)
     json_pure (1.7.7)
     librarian (0.1.1)
       highline
